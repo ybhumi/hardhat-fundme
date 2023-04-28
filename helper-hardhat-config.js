@@ -1,0 +1,28 @@
+const networkconfig ={
+    //chainid
+    31337: {
+        name: "localhost",
+    },
+    11155111:{
+        name:"sepolia",
+        ethUsdPriceFeed:"0x694AA1769357215DE4FAC081bf1f309aDC325306",
+        //get it from chainlinks data feed sepolia 
+    },
+    137:{
+        name:"polygon",
+        ethUsdPriceFeed: "0xF9680D99D6C9589e2a93a78A04A279e509205945",
+    },
+   
+
+
+
+}
+
+const developmentChains = ["hardhat", "localhost"]
+
+
+module.exports = {
+    networkconfig, developmentChains
+   
+
+}
